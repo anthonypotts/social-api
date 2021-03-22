@@ -19,6 +19,7 @@ router
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser)
+    
 
 router
     .route('/:userid/friends/:friendid')
